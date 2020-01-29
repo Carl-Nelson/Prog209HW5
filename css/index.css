@@ -47,12 +47,18 @@
     min-width: 200px;
     text-align: center;
     padding: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
 #computerDisplay {
     min-width: 200px;
     text-align: center;
     padding: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
 #playerCard {
