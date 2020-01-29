@@ -1,0 +1,32 @@
+#NEXTbutton {
+    display: none;
+    height: 50px;
+}
+
+#gameDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    border-style: solid;
+    border-Color: black;
+    border-width: 12px;
+    
+}
+
+#DEALbutton {
+    height: 50px;
+}
+
+#gameDisplay {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#scoreBoard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#playersDisplay {
+    display: flex;
+    justify-content: space-evenly;
+}

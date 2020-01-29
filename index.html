@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>It's a card game</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index.css">
+        
+        <!--normally if you have the scripts at the top, the page stops loading until all the scripts are downloaded. -->
+        <!--the defer attribute tells the browser to just download the scripts in the background and execute them in order after the page is done-->
+        <script defer src="js/cardlibrary.js"></script>
+        <script defer src="js/decklibrary.js"></script>
+        <script defer src="js/script.js"></script>
+        <!--there's also the async attribute which will execute the scripts asynchronously as soon as they're available-->
+        <!--I'm still gonna use the DOMContentLoaded event just in case somebody is using a stone-age browser, but it'll still load faster this way-->
+        
+    </head>
+    <body>
+        <header style="font-size:24px; text-align:center">(Card) Game of War</header>
+        <div id="gameDiv">
+            <button id="DEALbutton">DEAL</button>
+            <div id=gameDisplay>
+                <p id="gameMessage"></p>
+                <p id="turnCounter"></p>
+            </div>
+            <div id="scoreBoard">
+                <p id=playerScore>Player score: </p><p id=computerScore>Computer score: </p>
+            </div>
+            <div id=playersDisplay>
+                <div id="playerDisplay">
+                    <div id="playerCard"></div>
+                    <p>Player</p>
+                </div>
+                <div id="computerDisplay">
+                    <div id="computerCard"></div>
+                    <p>Computer</p>
+                </div>
+            </div>
+            <button id="NEXTbutton">NEXT</button>
+        </div>
+    </body>
+</html>
