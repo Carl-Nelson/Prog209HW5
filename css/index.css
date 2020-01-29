@@ -26,7 +26,39 @@
     justify-content: space-evenly;
 }
 
+#playerScore {
+    min-width: 200px;
+    text-align: center;
+    padding: 25px;
+}
+
+#computerScore {
+    min-width: 200px;
+    text-align: center;
+    padding: 25px;
+}
+
 #playersDisplay {
     display: flex;
     justify-content: space-evenly;
+}
+
+#playerDisplay {
+    min-width: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+#computerDisplay {
+    min-width: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+#playerCard {
+    padding: 10px;
+}
+
+#computerCard {
+    padding: 10px;
 }
